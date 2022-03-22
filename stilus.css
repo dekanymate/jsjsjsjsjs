@@ -1,0 +1,20 @@
+#tarolo{
+    border: solid black 2px;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "ar ar ar"
+                        "ar ar ar"
+                        "ar ar ar";
+}
+
+#tarolo>div{
+    grid-areas: ar;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
